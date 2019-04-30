@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "65362104336",
+    "firebase_url": "https://uzazi-9b7db.firebaseio.com",
+    "project_id": "uzazi-9b7db",
+    "storage_bucket": "uzazi-9b7db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65362104336:android:28a0ad48127619bc",
+        "android_client_info": {
+          "package_name": "com.example.jim.uzazi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65362104336-lugsq6b9siokc8b8qt3c6538i7pmfn2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jim.uzazi",
+            "certificate_hash": "0882f14bca446359fb54a8fa565f9cb32eef8e02"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWHmII029QxZcpfjdi8u-89xWJPNKaOhY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65362104336-ajbqguf6a0dgct0t6e76ne0s4kts9cpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
