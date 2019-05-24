@@ -24,13 +24,10 @@ import java.util.Date;
 public class Insert_Data_Activity extends AppCompatActivity implements View.OnClickListener {
 
     public  static DatabaseHelper databaseHelper;
-
-
+    final Calendar calendar = Calendar.getInstance();
     //home/jim/AndroidStudioProjects/PopDown_Sample/app/src/main/res/drawable/Week1
     EditText Duedate;
     EditText LastPeriod;
-
-    final Calendar calendar = Calendar.getInstance();
     DatePickerDialog.OnDateSetListener date;
     Button register;
     TextView numweek;

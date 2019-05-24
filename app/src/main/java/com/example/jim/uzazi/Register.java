@@ -22,9 +22,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Register extends AppCompatActivity {
 
+    private static final String TAG = "";
     private EditText name, email_id, passwordcheck;
     private FirebaseAuth mAuth;
-    private static final String TAG = "";
     private ProgressBar progressBar;
 
     @Override

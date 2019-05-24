@@ -23,13 +23,13 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Login extends AppCompatActivity {
     private static final String TAG = "";
+    private final static int RC_SIGN_IN = 123;
+    SignInButton button;
+//    GoogleSignInClient mGoogleSignInClient;
+    FirebaseAuth.AuthStateListener mAuthListner;
     private EditText inputEmail, inputPassword;
     private FirebaseAuth mAuth;
     private ProgressBar progressBar;
-    SignInButton button;
-    private final static int RC_SIGN_IN = 123;
-//    GoogleSignInClient mGoogleSignInClient;
-    FirebaseAuth.AuthStateListener mAuthListner;
 //
 //    @Override
 //    protected void onStart() {
